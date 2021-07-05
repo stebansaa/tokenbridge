@@ -2,7 +2,7 @@
 
 pragma solidity ^0.7.0;
 
-import "../GSN/Context.sol";
+import "../utils/Context.sol";
 /**
  * @dev A Secondary contract can only be used by its primary account (the one that created it).
  */

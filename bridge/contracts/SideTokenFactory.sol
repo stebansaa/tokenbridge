@@ -3,7 +3,7 @@
 pragma solidity ^0.7.0;
 
 import "./zeppelin/ownership/Secondary.sol";
-import "./ISideTokenFactory.sol";
+import "./interface/ISideTokenFactory.sol";
 import "./SideToken.sol";
 
 contract SideTokenFactory is ISideTokenFactory, Secondary {

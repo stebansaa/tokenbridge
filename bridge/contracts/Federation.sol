@@ -6,7 +6,7 @@ pragma solidity ^0.7.0;
 import "./zeppelin/upgradable/Initializable.sol";
 import "./zeppelin/upgradable/ownership/UpgradableOwnable.sol";
 
-import "./IBridge.sol";
+import "./interface/IBridge.sol";
 
 contract Federation is Initializable, UpgradableOwnable {
     uint constant public MAX_MEMBER_COUNT = 50;
